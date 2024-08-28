@@ -2,6 +2,8 @@ import streamlit as st
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Load the Iris dataset
 iris = load_iris()
